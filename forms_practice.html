@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- html code goes here -->
+
+<form>
+    <fieldset>
+        <legend>Credentials form</legend>
+        <label for = "fname">Name:</label>
+        <input type = "text" id = "fname">
+        <br>
+
+        <label for = "gender">Gender:</label>
+        <input type = "radio" id = "gender" name="gen">&nbspMale
+        <input type = "radio" id = "gender" name="gen">&nbspFemale
+        <br>
+
+        <label for="ages">Age: </label>
+        <select name="age groups" id="ages" multiple>
+            <option value="1825">18-25</option>
+            <option value="2632">26-32</option>
+            <option value="33-40">33-40</option>
+        </select>
+        <br>
+
+        <label for = "int">Interests:</label>
+        <input type = "checkbox" id = "int">&nbspMusic 
+        <input type = "checkbox" id = "int">&nbspSports
+        <input type = "checkbox" id = "int">&nbspTravel
+        <input type = "checkbox" id = "int">&nbspTechnology
+        <br>
+
+        <label for="file">Choose file</label>
+        <input type="file" name="file" id="file">
+        <br>
+
+        <input type = "submit" value="Submit">
+    </fieldset>
+</form>
+</body>
+</html>
